@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": false,
+        "experimentalDecorators": true,
+        "target": "es5",
+        "lib": [
+            "dom",
+            "es7"
+        ],
+        "sourceMap": true,
+        "removeComments": true,
+        "baseUrl": "./src"
+    },
+    "include": [
+        "./src/**/*"
+    ],
+    "exclude": [
+        "./**/__tests__/*"
+    ]
+}
